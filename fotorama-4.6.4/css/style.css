@@ -125,8 +125,7 @@ a{
 }
 /*Start title-border*/
 .title-border{
-    border: 1px solid #d8d9da;
-    border-radius: 6px;
+    border: 1px solid rgba(216,217,218,.3);
 }
 /*End title-border*/
 /*Start Slider*/

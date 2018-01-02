@@ -112,24 +112,31 @@ a{
     margin-top: 10px;
     color: #07b000;
     font-size: 20px;
+    font-weight: 600;
     margin-right: 10px;
+    text-align: right;
 }
 /*End ad-title*/
 .ad-post-date{
     color: #6a7072;
     font-size: 15px;
+    font-weight: bold;
     line-height: 20px;
-    margin-bottom: 2px;
+    text-align: right;
+    margin: 10px 20px;
 
 }
 /*Start title-border*/
 .title-border{
     border: 1px solid #d8d9da;
     border-radius: 6px;
+    margin-bottom: 20px;
 }
 /*End title-border*/
 /*Start Slider*/
-
+.fotorama{
+    border-radius: 5px;
+}
 .fotorama__wrap
 {
     max-width: 100%;
@@ -137,6 +144,11 @@ a{
 }
 .fotorama__stage__frame{
    border-radius: 5px; 
+}
+.fotorama__active .fotorama__img{
+   width: 100%;
+    border-radius: 5px;
+    z-index: 9;
 }
 
 
@@ -146,11 +158,6 @@ a{
 .des{
     position: relative;
     margin: 30px 0px 20px 0px;
-}
-.description{
-        height: 210px;
-        overflow: hidden;
-        transition: height 400ms linear;
 }
 .description,.details{
     padding: 10px 20px 0px 20px;
@@ -171,38 +178,10 @@ a{
     padding-top: 10px;
      border-top: 3px solid #07b000;
 }
-.Show-more {
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 20px;
-    text-decoration: none;
-    transition: color 200ms linear;
-    color: #07b000;
-    background: none;
-    bottom: 0;
-    border: none;
-    cursor: pointer;
-    display: block;
-    left: 50%;
-    padding: 0;
-    position: absolute;
-    -ms-transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-.fade-out-p{
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #f9f9f9 85%);
-    bottom: 0;
-    height: 250px;
-    position: absolute;
-    width: 100%;
-}
-.fade-hidden{
-    display: none;
-}
-.Show-more-hidden{
-     display: none;
-}
+
+
+
+
 /*End Description*/
 
 .details ul{
